@@ -79,6 +79,6 @@ houdini_escape_html0(struct buf *ob, const uint8_t *src, size_t size, int secure
 void
 houdini_escape_html(struct buf *ob, const uint8_t *src, size_t size)
 {
-	houdini_escape_html0(ob, src, size, 1);
+	houdini_escape_html0(ob, src, size, 0);
 }
 
